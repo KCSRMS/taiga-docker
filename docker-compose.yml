@@ -107,6 +107,7 @@ services:
       PUBLIC_REGISTER_ENABLED: "true"
       ENABLE_GITHUB_IMPORTER: "true"
       ENABLE_JIRA_IMPORTER: "true"
+      PUBLIC_REGISTER_ENABLED: "false"
       # ...your customizations go here
     networks:
       - taiga
