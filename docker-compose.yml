@@ -102,6 +102,11 @@ services:
       TAIGA_URL: "${TAIGA_SCHEME}://${TAIGA_DOMAIN}"
       TAIGA_WEBSOCKETS_URL: "${WEBSOCKETS_SCHEME}://${TAIGA_DOMAIN}"
       TAIGA_SUBPATH: "${SUBPATH}"
+      ENABLE_SLACK: "true"
+      ENABLE_GITHUB_AUTH: "true"
+      PUBLIC_REGISTER_ENABLED: "true"
+      ENABLE_GITHUB_IMPORTER: "true"
+      ENABLE_JIRA_IMPORTER: "true"
       # ...your customizations go here
     networks:
       - taiga
